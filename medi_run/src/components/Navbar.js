@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './Button';
+import Logo from './Logo';
 
 function Navbar() {
   let Links = [
@@ -14,11 +15,8 @@ function Navbar() {
   return (
     <div className='shadow-sm shadow-pink-950 w-full fixed top-0 left-0 z-20'>
       <div className='md:flex items-center justify-between bg-white py-4 md:px-8 px-5'>
-        <div className="font-bold text-sm cursor-pointer flex items-center font-sans text-gray-800">
-          <span className='text-2xl text-pink-700 mr-1 pt-2'>
-            <ion-icon name="infinite-outline"></ion-icon>
-          </span>
-          Medi-Run
+        <div>
+          <Logo textColor="pText" iconColor="pink-700" size="text-sm" />
         </div>
         <div onClick={() => setShow(!show)} className='text-2xl absolute right-8 top-6 cursor-pointer md:hidden'>
           <ion-icon className='text-pText' name={show ? 'close' : 'menu'}></ion-icon>

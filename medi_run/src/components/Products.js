@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './Product';
+import Card from './ProductComponent';
 import Image1 from '../assets/images/Image1.png';
 import Image2 from '../assets/images/Image2.png';
 import Image3 from '../assets/images/Image3.png';
@@ -33,7 +33,7 @@ function Products() {
     );
 
     return (
-        <div className='bg-gText mt-5 p-4'>
+        <div className='bg-pink-100 mt-5 p-4'>
             {cardElement1}
             {cardElement2}
             {cardElement3}

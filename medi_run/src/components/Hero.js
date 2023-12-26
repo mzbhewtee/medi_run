@@ -1,10 +1,10 @@
 import React from 'react';
-import heroImage from '../assets/images/hero.png';
+import heroImage from '../assets/images/hero.svg';
 import Button from './Button';
 
 function Hero() {
     return (
-        <div className='relative h-screen bg-themePrimary'>
+        <div className='relative h-screen'>
             <div className='md:flex flex-row-reverse absolute top-0 left-0 w-full h-full'>
                 <div className='relative mt-32'>
                     <img src={heroImage} alt='hero' className='w-full absolute mb-8 left-1/2 transform -translate-x-1/2' />
