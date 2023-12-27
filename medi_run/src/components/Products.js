@@ -33,7 +33,11 @@ function Products() {
     );
 
     return (
-        <div className='bg-pink-100 mt-5 p-4'>
+        <div className='bg-pink-100 mt-5 p-4 pt-10'>
+            <div>
+                <h2 className='text-xs font-light text-center text-pink-700'>PRODUCTS</h2>
+                <p className='text-center text-pText text-2xl font-bold mt-0 mb-5'>Provide Our Best Products</p>
+            </div>
             {cardElement1}
             {cardElement2}
             {cardElement3}

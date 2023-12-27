@@ -30,15 +30,16 @@ function WhyUs() {
 
     return (
         <div className="text-center my-8 p-4">
-            <h2 className="text-3xl font-bold mb-6 text-pText">Why choose us?</h2>
+            <h2 className="text-xs text-pink-700">WHY CHOOSE US?</h2>
+            <h1 className="text-xl mb-6 text-pText font-bold">We Offer The Best Options</h1>
             <div className="flex flex-col sm:flex-row sm:justify-around">
                 {convenienceElement}
                 {choiceElement}
                 {empowermentElement}
             </div>
-            <p className="mt-4 text-sm text-justify text-pText">
+            {/* <p className="mt-4 text-sm text-justify text-pText">
                 Join Medi-Run today and experience a new level of healthcare management. Your prescriptions, your pharmacies, your choice – all brought together for your convenience. Welcome to a simpler, more personalized healthcare experience.
-            </p>
+            </p> */}
         </div>
     );
 }
