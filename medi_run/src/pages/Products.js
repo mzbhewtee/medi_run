@@ -1,8 +1,8 @@
 import React from 'react';
-import Card from './ProductComponent';
-import Image1 from '../assets/images/Image1.png';
-import Image2 from '../assets/images/Image2.png';
-import Image3 from '../assets/images/Image3.png';
+import Card from '../components/ProductComponent';
+import Image1 from '../assets/images/product/Image1.png';
+import Image2 from '../assets/images/product/Image2.png';
+import Image3 from '../assets/images/product/Image3.png';
 
 function Products() {
     const cardElement1 = (
@@ -35,12 +35,15 @@ function Products() {
     return (
         <div className='bg-pink-100 mt-5 p-4 pt-10'>
             <div>
-                <h2 className='text-xs font-light text-center text-pink-700'>PRODUCTS</h2>
-                <p className='text-center text-pText text-2xl font-bold mt-0 mb-5'>Provide Our Best Products</p>
+                <h2 className='text-xs md:text-lg font-light text-center text-pink-700'>PRODUCTS</h2>
+                <p className='text-center text-pText text-2xl md:text-3xl font-bold mt-0 mb-5'>Provide Our Best Products</p>
             </div>
-            {cardElement1}
-            {cardElement2}
-            {cardElement3}
+            <div className='md:flex md:ml-10 md:mr-10'>
+                {cardElement1}
+                {cardElement2}
+                {cardElement3}
+            </div>
+
         </div>
     );
 }

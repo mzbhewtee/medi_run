@@ -4,7 +4,7 @@ import Button from './Button';
 class Card extends React.Component {
   render() {
     return (
-      <div className="rounded-lg shadow-sm mb-6 bg-white p-6">
+      <div className="rounded-lg shadow-md mb-6 md:ml-5 bg-white p-6">
         <img className="mx-auto mb-3 rounded-md" src={this.props.image} alt={this.props.alt} />
         <h2 className="text-md text-pText font-bold mb-1">{this.props.header}</h2>
         <p className='text-justify text-pText text-sm'>{this.props.paragraph}</p>

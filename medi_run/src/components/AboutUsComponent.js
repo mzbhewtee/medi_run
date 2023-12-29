@@ -10,9 +10,9 @@ function AboutUsComponent(props) {
   const buttonStyle = {
     width: '140px',
     height: '80px',
-    background: clicked ? 'darkblue' : 'white',
+    background: clicked ? '#091153' : 'white',
     border: clicked ? '0px' : '1px solid darkblue',
-    color: clicked ? 'white' : 'darkblue',
+    color: clicked ? 'white' : '#091153',
     padding: '10px',
     borderRadius: '5px',
     cursor: 'pointer',

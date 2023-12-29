@@ -1,6 +1,6 @@
 import React from 'react';
-import Logo from './Logo';
-import ListItem from './FooterComponents';
+import Logo from '../components/Logo';
+import ListItem from '../components/FooterComponents';
 
 
 function Footer() {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHandFist, faSquareCheck, faStar} from '@fortawesome/free-solid-svg-icons';
-import WUC from './WhyUsComponent';
+import WUC from '../components/WhyUsComponent';
 
 function WhyUs() {
     const convenienceElement = (
@@ -29,7 +29,7 @@ function WhyUs() {
     );
 
     return (
-        <div className="text-center my-8 p-4">
+        <div className="text-center my-8 p-4 bg-pink-100">
             <h2 className="text-xs text-pink-700">WHY CHOOSE US?</h2>
             <h1 className="text-xl mb-6 text-pText font-bold">We Offer The Best Options</h1>
             <div className="flex flex-col sm:flex-row sm:justify-around">
