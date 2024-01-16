@@ -9,14 +9,14 @@ import AboutUs from './pages/AboutUs';
 
 function App() {
   return (
-      <>
+    <>
       <Navbar />
       <Hero />
+      <WhyUs />
       <Products />
       <AboutUs />
-      <WhyUs />
       <Footer />
-      </>
+    </>
   );
 }
 

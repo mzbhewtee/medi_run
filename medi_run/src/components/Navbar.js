@@ -13,8 +13,8 @@ function Navbar() {
   let [show, setShow] = React.useState(false);
 
   return (
-    <div className='shadow-sm shadow-pink-950 w-full fixed top-0 left-0 z-20'>
-      <div className='md:flex items-center justify-between bg-white py-4 md:px-8 px-5'>
+    <div className=' w-full fixed top-0 left-0 z-20'>
+      <div className='md:flex md:pl-20 md:pr-20 items-center justify-between bg-white py-4 md:px-8 px-5'>
         <div className=''>
           <Logo textColor="pText" iconColor="pink-700" size="text-sm md:text-lg" />
         </div>

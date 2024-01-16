@@ -13,6 +13,7 @@ module.exports = {
       },
       backgroundImage: theme => ({
         'main-bg': "url('../src/assets/images/Background.svg')",
+        'why': "url('../src/assets/images/why.png')",
       }),
     },
   },

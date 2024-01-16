@@ -33,7 +33,7 @@ function Products() {
     );
 
     return (
-        <div className='bg-pink-100 mt-5 p-4 pt-10'>
+        <div className='p-4 pt-10 bg-why bg-no-repeat bg-cover backdrop-brightness-50'>
             <div>
                 <h2 className='text-xs md:text-lg font-light text-center text-pink-700'>PRODUCTS</h2>
                 <p className='text-center text-pText text-2xl md:text-3xl font-bold mt-0 mb-5'>Provide Our Best Products</p>
