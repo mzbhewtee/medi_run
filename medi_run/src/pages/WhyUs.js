@@ -29,7 +29,7 @@ function WhyUs() {
     );
 
     return (
-        <div className="text-center p-10 bg-gradient-to-l from-pink-100 via-white to-white">
+        <div className="text-center p-5 bg-gradient-to-l from-pink-100 via-white to-white">
             <h2 className="text-xs md:text-lg text-pink-700">WHY CHOOSE US?</h2>
             <h1 className="text-xl md:text-3xl mb-6 text-pText font-bold">We Offer The Best Options</h1>
             <div className="flex flex-col sm:flex-row sm:justify-around">
@@ -37,9 +37,6 @@ function WhyUs() {
                 {choiceElement}
                 {empowermentElement}
             </div>
-            <p className="mt-4 mb-4 text-sm md:text-lg text-justify text-pText md:ml-10 md:mr-10">
-                Join Medi-Run today and experience a new level of healthcare management. Your prescriptions, your pharmacies, your choice – all brought together for your convenience. Welcome to a simpler, more personalized healthcare experience.
-            </p>
         </div>
     );
 }

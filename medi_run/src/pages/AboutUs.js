@@ -19,7 +19,6 @@ function AboutUs() {
         <h1 className="text-2xl md:text-3xl mb-6 text-pText font-bold">Revolutionizing Healthcare</h1>
 
         <div className='w-full md:flex md:flex-row-reverse '>
-          {/* <img className='absolute top-32 right-0 md:w-2/3 w-full opacity-30 z-0' src={imge5} alt='About Us' /> */}
           <img className='mx-auto mt-1 w-72 md:w-1/3 md:mr-10 z-10' src={imge2} alt='Our Mission' />
           <div className='md:w-2/3 mb-5 md:ml-20 md:mt-32 md:mr-20 z-10'>
             <h2 className='text-md md:text-2xl text-pText font-bold mt-5 ml-7 md:mb-2 '>Our Mission</h2>
@@ -30,7 +29,6 @@ function AboutUs() {
         </div>
 
         <div className='w-full z-10 md:flex mt-10'>
-          {/* <img className='absolute left-20 md:w-2/3 w-full z-0 rotate-45 opacity-30' src={imge5} alt='About Us' /> */}
           <img className='absolute w-10' src={imge4} alt='About Us' />
           <img className='mx-auto mt-1 w-72 md:w-1/3 md:ml-20 z-10' src={imge3} alt='Our Vision' />
           <div className='md:w-2/3 mb-5 md:ml-20 md:mt-32 md:mr-20 z-10'>
@@ -40,28 +38,32 @@ function AboutUs() {
           </div>
         </div>
 
-        <div className='w-full'>
-          <h2 className='text-md text-pText font-bold mt-5 ml-7 text-start'>Our Impact</h2>
-        </div>
+        <div className='w-full md:flex md:flex-row-reverse '>
+          <div className='relative md:mr-16 md:w-full'>
+            <img className='mx-auto mt-5 w-full md:mr-10' src={imge} alt='About Us' />
 
-        <div className='relative'>
-          <div className='absolute top-7 right-2'>
-            <AboutUsComponent title='SDG 3' text='Good Health and Well-being' alternateText='Improved access to authenticated medication' />
+            <div className='absolute top-10 right-2'>
+              <AboutUsComponent title='SDG 3' text='Good Health and Well-being' alternateText='Improved access to authenticated medication' />
+            </div>
+
+            <div className='absolute top-28 left-2'>
+              <AboutUsComponent title='SDG 13' text='Climate Actions' alternateText='Reduced carbon footprint by eliminating the need for extensive travel' />
+            </div>
+
+            <div className='absolute top-72 left-2'>
+              <AboutUsComponent title='SDG 10' text='Reduced Inequalities' alternateText='Accessibility for people in remote areas' />
+            </div>
+
+            <div className='absolute top-60 right-2'>
+              <AboutUsComponent title='SDG 8' text='Decent Work and Economic Growth' alternateText='Job creation through delivery services' />
+            </div>
+
           </div>
-
-          <div className='absolute top-28 left-2'>
-            <AboutUsComponent title='SDG 13' text='Climate Actions' alternateText='Reduced carbon footprint by eliminating the need for extensive travel' />
+          <div className='mb-5 md:ml-20 md:mt-32 md:mr-20 z-10'>
+            <h2 className='text-md md:text-2xl text-pText font-bold mt-5 ml-7 md:mb-2'>Our Impact</h2>
+            <p className='text-pText text-sm md:text-lg text-justify m-7 mt-0'>
+              Our imapct is to create a healthcare ecosystem that transcends boundaries, aligns with global sustainable development goals, and prioritizes accessibility, accuracy, and the well-being of every individual. We aspire to be the catalyst for positive change, redefining healthcare for a brighter, healthier future.          </p>
           </div>
-
-          <div className='absolute top-72 left-2'>
-            <AboutUsComponent title='SDG 10' text='Reduced Inequalities' alternateText='Accessibility for people in remote areas' />
-          </div>
-
-          <div className='absolute top-60 right-2'>
-            <AboutUsComponent title='SDG 8' text='Decent Work and Economic Growth' alternateText='Job creation through delivery services' />
-          </div>
-
-          <img className='mx-auto mt-1 w-96' src={imge} alt='About Us' />
         </div>
 
         <div className='w-full'>

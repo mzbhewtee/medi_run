@@ -3,7 +3,7 @@ import React from 'react';
 class WUC extends React.Component {
     render() {
         return (
-            <div className="mb-4 w-full md:w-1/3 flex space-x-2 border md:flex-col p-7 md:ml-10 md:mr-10 shadow-md rounded-md bg-white">
+            <div className="mb-4 w-full md:w-1/3 flex border md:flex-col p-7 md:ml-10 md:mr-10 md:mt-10 shadow-md rounded-md bg-white">
                 <div className='w-2/12 md:w-full md:mb-6 flex items-center justify-start md:justify-center text-pink-800'>
                     {this.props.icon}
                 </div>
