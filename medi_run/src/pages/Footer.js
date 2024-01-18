@@ -35,7 +35,7 @@ function Footer() {
                 </div>
             </div>
             <div className='bg-pink-900 text-white p-6 flex justify-between'>
-                <p className='text-sm'>© 2023 Medi-Run. All Rights Reserved.</p>
+                <p className='text-xs md:text-sm'>© 2023 Medi-Run. All Rights Reserved.</p>
                 <div className='flex space-x-2'>
                     <ion-icon name="logo-facebook"></ion-icon>
                     <ion-icon name="logo-twitter"></ion-icon>
