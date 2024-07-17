@@ -11,7 +11,7 @@ import Team from '../components/Team';
 
 function AboutUs() {
   return (
-    <div className='relative bg-gradient-to-r from-pink-100 via-white to-white'>
+    <div id='about-section' className='relative bg-gradient-to-r from-pink-100 via-white to-white'>
       <img className='absolute top-0 right-0 w-10' src={imge4} alt='About Us' />
       <div className='flex flex-col justify-center items-center py-10 md:ml-10 md:mr-10'>
         <h2 className="text-xs md:text-lg text-pink-700">ABOUT US</h2>

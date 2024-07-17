@@ -6,7 +6,7 @@ import ListItem from '../components/FooterComponents';
 function Footer() {
     return (
         <div>
-            <div className='border-t border-pink-700 pl-6 pr-6 pb-6 md:flex md:flex-row md:p-6'>
+            <div id='contact-section' className='border-t border-pink-700 pl-6 pr-6 pb-6 md:flex md:flex-row md:p-6'>
                 <div className='md:w-1/3 md:ml-10'>
                     <Logo textColor="pText" iconColor="pink-700" size="text-1xl md:text-2xl" />
                     <p className='text-pText text-justify text-xs md:text-sm'>Your prescriptions, your pharmacies, your choice. We provide a platform for you to manage your healthcare needs, all in one place.</p>

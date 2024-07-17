@@ -4,7 +4,7 @@ import Button from './Button';
 
 function Hero() {
   return (
-    <div className='relative bg-gradient-to-r from-pink-100 via-white to-white overflow-hidden'>
+    <div id='home-section' className='relative bg-gradient-to-r from-pink-100 via-white to-white overflow-hidden'>
       <div className='md:flex md:ml-10 md:mr-10 items-center md:flex-row-reverse justify-between w-full h-full'>
         <div className='md:w-1/2 flex justify-center mr-10 ml-10'>
           <img src={heroImage} alt='hero' className='w-full md:max-w-md mt-32' />
